@@ -65,7 +65,7 @@ class MainWindow(QMainWindow):
         navigate_rickroll_action = QAction('How to...', self)
         help_menu.addAction(navigate_rickroll_action)
 
-        # NAVIGATE TO DEVELOPER WEBSITE
+        # Never Gonna Give You Up
         navigate_rickroll_action.triggered.connect(self.navigate_rickroll)
 
         # Menambah StyleSheet
